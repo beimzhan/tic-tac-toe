@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Square } from './Square';
 
-export const Board = ({board, updateGame}) => {
+export const Board = ({ board, updateGame }) => {
   return (
     <div className='grid grid-cols-3'>
       {board.map((row, rowIndex) => (

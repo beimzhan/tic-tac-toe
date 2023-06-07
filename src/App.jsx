@@ -11,6 +11,9 @@ function App() {
   const [player, setPlayer] = useState("X")
 
   const updateGame = (row, col) => {
+    if (board[row][col] !== " ")
+      return
+
     const newBoard = [...board]
     newBoard[row][col] = player
     setBoard(newBoard)
