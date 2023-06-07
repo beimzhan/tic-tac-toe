@@ -1,0 +1,2 @@
+# Gameplay
+![](./images/gameplay.png)
