@@ -50,7 +50,7 @@ function App() {
     return null
   }
 
-  function startNewGameHandler() {
+  function startNewGame() {
     setBoard(emptyBoard)
     setPlayer("X")
     setGameResult(null)
@@ -81,7 +81,7 @@ function App() {
       </span>
       <button
         className="mt-4 px-4 py-2 bg-blue-400 text-white rounded-md"
-        onClick={startNewGameHandler}
+        onClick={startNewGame}
       >
         Start New Game
       </button>
